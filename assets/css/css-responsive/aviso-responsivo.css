@@ -1,0 +1,29 @@
+@media(min-width: 425px){  
+
+    .aviso-botao{
+       
+        width: 20%;
+        height: 22%;
+    } 
+}
+@media(min-width: 768px){  
+    .aviso img{    
+        border-radius: 20px;
+        width: 80%;  
+       
+    }     
+    .aviso-botao{
+        border-radius: 15px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        bottom: 10%;
+        font-size: 20px;
+        right: 15%;
+        background-color: #021655;
+        width: 17%;
+        height: 17%;
+    } 
+}

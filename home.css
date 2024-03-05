@@ -1,0 +1,126 @@
+main{
+    margin-top: 10px;
+   
+} 
+.event .news{
+    position: absolute;
+    background-color: #eaa22f;
+    top: 14%;
+    width: 60%;
+    height: 45%;
+}
+.event .news p{
+    display: flex;
+    flex-direction: column;    
+    font-weight: bold;  
+    color: black;
+    padding-left: 10%;
+    padding-right: 10px;
+    line-height: 125%;
+}
+
+.event .news p:first-child{
+    display: flex;
+    justify-content: center;    
+    height: 25%;
+    font-size: 11px;    
+    font-weight: bold;
+    color: #273b7a;
+}
+.event .news p:nth-child(2){  
+    display: flex;
+    justify-content: center;  
+    height: 50%;
+    font-size: 13px;       
+    font-weight: bold;
+    border-bottom: 2px solid #273b7a;    
+}
+.event .news p:nth-child(3){
+    display: flex;
+    height: 25%;
+    justify-content: center; 
+    font-size: 10px;    
+}
+.buttonLink {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 73%;
+    left: 37%;
+    text-decoration: none;
+    font-size: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 80px;
+    height: 29px;
+    color: #273b7a;
+    font-weight: bold;
+}
+.buttonLink:hover{
+    background-color:  #021655;
+    color: #eaa22f;
+   
+}
+.videos{
+    width: 100%;
+    height: 190px;
+    padding: 10px;  
+}
+
+.videosGynwod{
+    display: inline-block;   
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px #5c5c5c;
+}
+.videosGynwod:hover{
+    box-shadow: 0px 0px 0px #5c5c5c;
+}
+
+.article, .event{    
+    position: relative;   
+    padding: 10px;    
+}
+.article .img , .event .img{
+    width: 100%;
+    height:100%;   
+    object-fit: cover;
+    object-position: center;    
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px #5c5c5c;
+    
+}
+.article a{
+    display: inline-block;
+    width: 100%;
+    
+}
+.articleNews{
+    position: absolute;
+    background-color: #273b7a;
+    top: 44%;
+    width: 41%;
+    height: 31%;
+    
+}
+.articleNews p{
+    display: flex;
+    flex-wrap: wrap;    
+    color: white;
+    padding: 5% 5% 5% 20%;
+}
+.articleNews p:first-child{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    font-size: 12px;          
+    font-weight: bold;
+    border-bottom: 2px solid  #021655;        
+}
+.articleNews p:last-child{
+    font-size: 6px;
+    display: flex;
+    align-items: center;    
+}
+

@@ -1,0 +1,12 @@
+@media(min-width: 990px){
+    .banner{
+        
+        height: 200px;
+    }
+   
+}
+@media(min-width: 1300px){
+    .banner{        
+        height: 300px;
+    }
+}

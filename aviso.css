@@ -1,0 +1,38 @@
+.aviso{
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 2;        
+    background-color: rgb(02,22,85);
+    width: 100vw;    
+    height: 100vh;    
+}
+.controle-aviso{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 95%;    
+}
+
+.aviso img{    
+    border-radius: 20px;
+    width: 100%;  
+   
+}
+.aviso-botao{
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    bottom: 10%;
+    font-size: 20px;
+    right: 5%;
+    background-color: #021655;
+    width: 24%;
+    height: 26%;
+}
