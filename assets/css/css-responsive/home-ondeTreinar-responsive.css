@@ -4,11 +4,17 @@
         width: 100%;
         height: 300px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         
         
-    }   
+    }  
+    .mainInside{
+        
+        margin: 10px 10px 10px 100px;
+        
+       
+    } 
 }
 @media(min-width: 768px){
     .main{   
