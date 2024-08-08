@@ -9,17 +9,7 @@
         
         
     }  
-    .mainInside{
-        
-        margin: 10px 10px 10px 100px;
-        
-       
+    .mainInside{        
+        margin: 10px 10px 10px 100px;      
     } 
-}
-@media(min-width: 768px){
-    .main{   
-        justify-content: flex-start;        
-        
-    }
-    
 }
